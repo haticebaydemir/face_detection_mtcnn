@@ -4,8 +4,13 @@
 ## Açıklama
 Bu proje, MTCNN (Multi-task Cascaded Convolutional Networks) kullanarak resimlerdeki yüzleri tespit eden ve ardından tespit edilen yüzleri bulanıklaştıran bir Python uygulamasıdır. Uygulama, gizlilik gerektiren durumlarda yüzleri maskelemek için idealdir. Derin öğrenme tabanlı bu algoritma, çeşitli açılardan ve koşullarda yüzleri daha hassas bir şekilde tespit etme yeteneğine sahiptir.
 
-## Kullanılan Teknolojiler
+## Özellikler
+- **Yüz Tespiti**: Yüzleri hızlı ve etkili bir şekilde tespit eder.
+- **Bulanıklaştırma**: Tespit edilen yüzlerin etrafında bulanık bir alan oluşturarak gizliliği artırır.
+- **Görselleştirme**: Tespit edilen yüzlerin etrafında dikdörtgen çizer.
+- **Google Colab Desteği**: Proje, kullanıcıların herhangi bir kurulum yapmadan kolayca çalıştırabilmesi için Google Colab üzerinde tasarlanmıştır.
 
+## Kullanılan Teknolojiler
 ### İstemci
 - **Python**: Proje, Python programlama dili kullanılarak geliştirilmiştir.
 - **OpenCV**: Görüntü işleme ve analiz işlemleri için kullanılan popüler bir kütüphane.
